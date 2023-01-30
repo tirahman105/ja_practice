@@ -10,7 +10,25 @@ for(var i=0; i<marks.length; i++){
   console.log(marks[i]);
 } */
 
-var i = 5;
-for (i < 5; i++) {
- console.log(i);
+
+// for (var i =0; i< 10; i++){
+//   console.log(i)
+// }
+
+var numbers = [1,2,3,4,5,6,7,8];
+
+var temp =[];
+var temp2 =[];
+
+// console.log(numbers);
+for(var i =0; i<numbers.length ; i++){
+  var element= numbers[i];
+ if( element %2 ==0){
+  temp.push(element);
+ }
+ if(element %2 !== 0){
+  temp2.push(element);
+ }
 }
+console.log(temp);
+console.log(temp2);

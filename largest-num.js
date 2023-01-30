@@ -46,7 +46,7 @@ else if (num2>num3 && num2>num4){
 else if(num3>num4){
     // console.log("Num 3 is largest ")
     document.write("Num 3 is largest ")
-}else{
+}else if{
     // console.log("Num 4 is largest")
     document.write("Num 4 is largest ")
 }
