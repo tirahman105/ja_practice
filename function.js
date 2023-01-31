@@ -1,11 +1,11 @@
-function movie(){
+function isEven(number){
+  const remainder = number % 2;
 
-    return "Din-The day";
-  
-    return "Poran";
-  
-    return "Hawa";
-  
+  if (remainder === 0){
+    console.log( "Number is even");
+  }else{
+    console.log("Number is odd");
   }
-  
-  console.log(movie());
+
+}
+isEven(102);
