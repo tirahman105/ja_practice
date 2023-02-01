@@ -9,7 +9,7 @@ for ( i= 0; i <friends.length ; i++){
 
 // object 
 
-var human = {
+/* var human = {
     name: "Tareq",
     age: 31,
     friends : ["Moshi", "Nitul", "Timu"] ,
@@ -17,4 +17,8 @@ var human = {
 for(var i =0 ; i < human.friends.length; i++){
     var element = human.friends[i];
     console.log(element);
+} */
+
+for( var i = 0 ; i < 10; i++ ){
+    console.log("Sorry");
 }
