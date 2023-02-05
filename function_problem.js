@@ -1,9 +1,9 @@
-function totalPrice(chal, dal, tel , lobon){
+/* function totalPrice(chal, dal, tel , lobon){
     var result = chal + dal + tel + lobon;
     return result;
 }
 var totalPrice = totalPrice(20,30,40,50);
-console.log(totalPrice);
+console.log(totalPrice); */
 
 /* function kitoToMile(input){
     var mile = 0.62137119;
@@ -55,4 +55,14 @@ console.log(workoutPlan); */
     }
 }
 sorry(); */
+
+
+function kiloToMile(input){
+    var mile = 0.62137119;
+    var kilo = input * mile;
+    return kilo;
+}
+var output = kiloToMile(10);
+console.log(output);
+// var output = kitoToMile(parseInt(prompt("input mile here")));
 
